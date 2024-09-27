@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Submitter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login-form">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button id="login-button">Login</button>
+    </div>
+
+    <div id="json-form" style="display:none;">
+        <h2>Submit JSON Data</h2>
+        <textarea id="json-input" rows="10" cols="50" placeholder="Paste your JSON data here"></textarea>
+        <br>
+        <button id="submit-json">Submit JSON</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
